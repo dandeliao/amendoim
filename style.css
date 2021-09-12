@@ -43,3 +43,24 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     font-style: normal;
 
 }
+
+header {
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+header h1 {
+    font-family: "lobstertwo";
+    font-size: 10em;
+}
+
+header h3 {
+    font-family: "cabin";
+    font-size: 2em;
+}
+
+
+footer {
+    background-color: lightpink;
+    text-align: center;
+}
