@@ -65,6 +65,25 @@ header h3 {
     margin: 0 auto;
 }
 
+section {
+    font-size: 1rem;
+    margin: 11em 0 0 0;
+}
+
+.card {
+    font-size: 1.5rem;
+    font-family: "cabin";
+    display: block;
+    margin-bottom: 7em;
+}
+
+.card-left {
+    text-align: left;
+}
+
+.card-right {
+    text-align: right;
+}
 
 footer {
     background-color: lightpink;
