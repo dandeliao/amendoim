@@ -17,8 +17,13 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     list-style: none;
   }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 html {
-    font-size: min(max(1rem, 2vw), 22px);
+    font-size: min(max(0.8rem, 2vw), 22px);
 }
 
 @font-face {
@@ -106,10 +111,10 @@ header .btn:hover {
 
 .hero {
     text-align: center;
-    font-size: min(max(1rem, 4vw), 40px);
+    font-size: min(max(1rem, 4vw), 42px);
     position: relative;
     z-index: 100;
-    margin: 1.2em 0 6em 0;
+    margin: 2em 0 5.5em 0;
 }
 
 .hero h1 {
@@ -126,7 +131,7 @@ header .btn:hover {
     position: absolute;
     top: -30px;
     max-width: 1300px;
-    min-width: 700px;
+    min-width: 800px;
     width: 100%;
     left: 50%;
     transform: translate(-50%, 0);
@@ -147,12 +152,12 @@ header .btn:hover {
 
 .bolha-2 {
     z-index: 1;
-    top: 20px;
+    top: 35px;
 }
 
 .bolha-3 {
     z-index: 2;
-    top: 85px;
+    top: 150px;
 }
 
 .container {
@@ -171,13 +176,13 @@ section {
     font-size: 1.2rem;
     font-family: "merriweather";
     display: block;
-    margin-bottom: 7em;
+    margin-bottom: 6.4em;
     padding: 0 1em;
     z-index: 100;
 }
 
-.card p {
-    font-size: 1rem;
+#headlines .card p {
+    font-size: 1.1rem;
     padding: 0.8em 0;
 }
 
