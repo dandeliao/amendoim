@@ -139,7 +139,7 @@ header .btn:hover {
 
 .fade {
     opacity: 0;
-    transition: all 2s;
+    transition: all 1.5s;
 }
 
 .fade.visible {
@@ -229,7 +229,7 @@ section {
     background-color: rgba(238, 231, 151, 0.76);
     margin: 0 0.6em;
     padding: 0.8em 0.8em;
-    border-style: dotted;
+    border-style:dashed;
 }
 
 .avatar {
