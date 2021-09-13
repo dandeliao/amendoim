@@ -63,6 +63,39 @@ header h3 {
     font-size: 2em;
 }
 
+.decorations {
+    position: absolute;
+    top: -30px;
+    max-width: 1200px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.bolha {
+    position: absolute;
+    max-width: 1200px;
+    min-width: 700px;
+    width: 100%;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.bolha-1 {
+    z-index: 3;
+    top: -30px;
+}
+
+.bolha-2 {
+    z-index: 1;
+    top: 20px;
+}
+
+.bolha-3 {
+    z-index: 2;
+    top: 85px;
+}
+
 .container {
     max-width: 860px;
     width: 100%;
