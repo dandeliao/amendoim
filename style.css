@@ -114,7 +114,7 @@ header .btn:hover {
     font-size: min(max(1rem, 4vw), 42px);
     position: relative;
     z-index: 100;
-    margin: 2em 0 5.5em 0;
+    margin: 2em 0 10em 0;
 }
 
 .hero h1 {
@@ -137,11 +137,23 @@ header .btn:hover {
     transform: translate(-50%, 0);
 }
 
+.fade {
+    opacity: 0;
+    transition: all 2s;
+}
+
+.fade.visible {
+    opacity: 1;
+}
+
 .bolha {
     position: absolute;
     width: 100%;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.bolha.visible {
     opacity: 0.9;
 }
 
@@ -227,16 +239,16 @@ section {
 }
 
 #headlines{
-    margin-bottom: 14em;
+    margin-bottom: 17em;
 }
 
 #endorsements{
-    margin-bottom: 14em;
+    margin-bottom: 13em;
 }
 
 #contact {
     margin: 0 auto;
-    margin-bottom: 7em;
+    margin-bottom: 17em;
     text-align: center;
     font-family: "merriweather";
     position: relative;
