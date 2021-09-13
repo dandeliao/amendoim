@@ -17,6 +17,10 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     list-style: none;
   }
 
+html {
+    font-size: min(max(1rem, 2vw), 22px);
+}
+
 @font-face {
     font-family: 'lobstertwo';
     src: url('fonts/lobstertwo-bold-webfont.woff2') format('woff2'),
@@ -50,7 +54,7 @@ body {
 
 header {
     text-align: center;
-    font-size: 1.2rem;
+    font-size: min(max(1rem, 4vw), 32px);
     position: relative;
     z-index: 100;
     margin-bottom: 5em;
@@ -58,12 +62,12 @@ header {
 
 header h1 {
     font-family: "lobstertwo";
-    font-size: 10em;
+    font-size: 4em;
 }
 
 header h3 {
-    font-family: "cabin";
-    font-size: 2em;
+    font-family: "merriweather";
+    font-size: 1.3em;
 }
 
 .decorations {
@@ -112,8 +116,8 @@ section {
 
 .card {
     position: relative;
-    font-size: 1.5rem;
-    font-family: "cabin";
+    font-size: 1.2rem;
+    font-family: "merriweather";
     display: block;
     margin-bottom: 7em;
     padding: 0 1em;
@@ -121,6 +125,7 @@ section {
 }
 
 .card p {
+    font-size: 1rem;
     padding: 0.8em 0;
 }
 
