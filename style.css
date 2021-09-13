@@ -189,6 +189,46 @@ section {
     text-align: right;
 }
 
+#endorsements .card {
+    font-size: 1.1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile p {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.profile .profile-name {
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.testimony {
+    background-color: rgba(238, 231, 151, 0.76);
+    margin: 0 0.6em;
+    padding: 0.8em 0.8em;
+    border-style: dotted;
+}
+
+.avatar {
+    width: 7em;
+    height: 7em;
+    border-radius: 100%;
+}
+
+#headlines{
+    margin-bottom: 14em;
+}
+
+#endorsements{
+    margin-bottom: 14em;
+}
+
 #contact {
     margin: 0 auto;
     margin-bottom: 7em;
