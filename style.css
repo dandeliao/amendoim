@@ -52,6 +52,23 @@ body {
     background-image: url("/images/fundo-padrao.png");
 }
 
+.btn {
+    background:#e49a66;
+    color: black;
+    border: 0.06em solid black;
+    padding: 0.6em 1.1em;
+    border-radius: 5px;
+    font-family: "lobstertwo";
+    font-size: 1.4em;
+    position: relative;
+    z-index: 100;
+}
+
+.btn:hover{
+    background:#fa5d24;
+    cursor: pointer;
+    transition: all 0.2s;
+}
 
 
 header {
@@ -171,6 +188,31 @@ section {
 .card-right {
     text-align: right;
 }
+
+#contact {
+    margin: 0 auto;
+    margin-bottom: 7em;
+    text-align: center;
+    font-family: "merriweather";
+    position: relative;
+    z-index: 100;
+}
+
+#contact h2 {
+    position: relative;
+    z-index: 100;
+}
+
+#contact .btn {
+    margin: 2em;
+}
+
+.bolha-contato{
+    top: -6em;
+    position: absolute;
+    z-index: 1;
+}
+
 
 footer {
     background-color: lightpink;
