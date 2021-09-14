@@ -7,7 +7,7 @@ function transicao(fades) {
         console.log("bolinha", elemento);
         console.log("pageBottom", pageBottom);
         console.log("ybottom", ybottom);
-        if (pageBottom > ybottom + 70) {
+        if (pageBottom > ybottom) {
             elemento.classList.add("visible");
             console.log("add");
         } else {
